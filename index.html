@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- main content container -->
+    <div id="container">
+        <!-- image container -->
+        <div id="image">
+            <img src="./assets/images/signup.png" alt="" />
+        </div>
+        <!-- form container -->
+        <div id="form">
+            <form>
+                <!-- Username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" class="form-input" placeholder="Pick A Username"
+                    required />
+                <!-- Password -->
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password" minlength="8" required />
+                <!-- Name -->
+                <label for="name">Enter full name:</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" />
+                <!-- Email -->
+                <label for="email">Enter email address:</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Email Address" />
+                <!-- Phone Number -->
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="Phone Number" />
+                <!-- Updates -->
+                <p>
+                    Would you like to receive email updates?
+                    <!-- Yes -->
+                    <span class="radio-wrapper">
+                        <input type="radio" name="email-confirm" id="email-yes" />
+                        <label for="email-yes">Yes</label>
+                    </span>
+                    <!-- No -->
+                    <span class="radio-wrapper">
+                        <input type="radio" name="email-confirm" id="email-no" />
+                        <label for="email-no">No</label>
+                    </span>
+                </p>
+                <!-- Age Verify -->
+                <p>
+                    <span class="checkbox-wrapper">
+                        <label for="checkbox">
+                            I acknowledge that I am at least 18 years of age.
+                            <input type="checkbox" name="checkbox" id="checkbox" />
+                        </label>
+                    </span>
+                </p>
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
