@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #038fcf;
+    --secondary-color: #ecde1c;
+    --tertiary-color: #ffffff;
+    --quaternary-color: #291a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    background-color: var(--quaternary-color);
+    border: 3px solid var(--quaternary-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: auto;
+}
+#image {
+    flex: 1 0 0;
+}
+#form {
+    flex: 1 0 400px;
+    width: 70%;
+    padding: 15px;
+}
+
+#form p {
+    margin: 10px 0 15px 0;
+}
+
+.form-input {
+    display: block;
+}

@@ -20,46 +20,48 @@
         <div id="form">
             <form>
                 <!-- Username -->
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" class="form-input" placeholder="Pick A Username"
-                    required />
+                <label for="username">Username:</label><br />
+                <input type="text" id="username" name="username" class="form-input" placeholder="Username"
+                    required /><br />
                 <!-- Password -->
-                <label for="pass">Password (8 characters minimum):</label>
-                <input type="password" id="pass" name="password" minlength="8" required />
+                <label for="pass">Password (8 characters minimum):</label><br />
+                <input type="password" id="pass" name="password" minlength="8" required /> <br /> <br />
                 <!-- Name -->
-                <label for="name">Enter full name:</label>
-                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" />
+                <label for="name">Enter full name:</label><br />
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" /><br />
                 <!-- Email -->
-                <label for="email">Enter email address:</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="Email Address" />
+                <label for="email">Enter email address:</label><br />
+                <input type="email" id="email" name="email" class="form-input" placeholder="you@email.com" /
+                    required><br />
                 <!-- Phone Number -->
-                <label for="phone">Enter a telephone number:</label>
-                <input type="tel" id="phone" name="phone" class="form-input" placeholder="Phone Number" />
-                <!-- Updates -->
-                <p>
-                    Would you like to receive email updates?
-                    <!-- Yes -->
-                    <span class="radio-wrapper">
-                        <input type="radio" name="email-confirm" id="email-yes" />
-                        <label for="email-yes">Yes</label>
-                    </span>
-                    <!-- No -->
-                    <span class="radio-wrapper">
-                        <input type="radio" name="email-confirm" id="email-no" />
-                        <label for="email-no">No</label>
-                    </span>
-                </p>
-                <!-- Age Verify -->
-                <p>
-                    <span class="checkbox-wrapper">
-                        <label for="checkbox">
-                            I acknowledge that I am at least 18 years of age.
-                            <input type="checkbox" name="checkbox" id="checkbox" />
-                        </label>
-                    </span>
-                </p>
-                <!-- Submit Button -->
-                <button type="submit">Submit</button>
+                <label for="phone">Enter a telephone number:</label><br />
+                <input type="tel" id="phone" name="phone" class="form-input" placeholder="1(000)000-000" />
+                <br />
+                    <!-- Updates -->
+                    <p>
+                        Would you like to receive email updates?<br />
+                        <!-- Yes -->
+                        <span class="radio-wrapper">
+                            <input type="radio" name="email-confirm" id="email-yes" />
+                            <label for="email-yes">Yes</label>
+                        </span>
+                        <!-- No -->
+                        <span class="radio-wrapper">
+                            <input type="radio" name="email-confirm" id="email-no" />
+                            <label for="email-no">No</label>
+                        </span>
+                    </p>
+                    <!-- Age Verify -->
+                    <p>
+                        <span class="checkbox-wrapper">
+                            <label for="checkbox">
+                                I acknowledge that I am at least 18 years of age.
+                                <input type="checkbox" name="checkbox" id="checkbox" required />
+                            </label>
+                        </span>
+                    </p><br />
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
             </form>
         </div>
     </div>
