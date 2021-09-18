@@ -63,3 +63,25 @@ body {
     background-color: var(--tertiary-color);
     outline: none;
 }
+
+.checkbox-wrapper input, .radio-wrapper input {
+    
+}
+
+#form button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    color: var(--quaternary-color);
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+#form button:hover {
+    background-color: var(--quaternary-color);
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
